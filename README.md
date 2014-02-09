@@ -35,3 +35,8 @@ used. An example output is the following:
 
 Another way of generating that info is with `@elapsed`, but it just
 shows the elapsed time and not the bytes allocated.
+
+## Learning Julia
+
+Read the [official docs](http://docs.julialang.org/), or read
+[this madness](http://learnxinyminutes.com/docs/julia/).
