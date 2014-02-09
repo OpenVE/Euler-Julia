@@ -31,3 +31,15 @@ This file will have all the alternative ways of solving the same
 problem, and will test which is more efficient. The best approach
 should be the one written in `Euler_Julia_0001.jl`.
 
+Each file should have at least one function which solves the problem,
+which whould be invoked by `@time` in order to check the elapsed time
+adn the allocated bytes:
+
+    @time println(main(2000000))
+
+The line above will show us the result of `main()` and the resources
+used. An output like the following:
+
+    142913828922
+    elapsed time: 0.083079608 seconds (1132576 bytes allocated)
+
