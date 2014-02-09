@@ -22,13 +22,13 @@ this person must write the Julia file solving the euler the next way:
     Euler_Julia_0001.jl
 
 Each file should have at least one function which solves the problem,
-which whould be invoked by `@time` in order to check the elapsed time
-adn the allocated bytes:
+which will be invoked by `@time` in order to check the elapsed time
+and the allocated bytes:
 
     @time println(main(2000000))
 
 The line above will show us the result of `main()` and the resources
-used. An output like the following:
+used. An example output is the following:
 
     142913828922
     elapsed time: 0.083079608 seconds (1132576 bytes allocated)
