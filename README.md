@@ -43,3 +43,5 @@ used. An output like the following:
     142913828922
     elapsed time: 0.083079608 seconds (1132576 bytes allocated)
 
+Another way of generating that info is with `@elapsed`, but it just
+shows the elapsed time and not the bytes allocated.
